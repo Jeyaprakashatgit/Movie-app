@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Application</title>
+  <link rel="stylesheet" href="omdb.css">
+</head>
+<body>
+  <div class="container">
+    <h1 style="display: flex; justify-content: CENTER; color: rgb(255, 255, 255);"> Cinemate</h1>
+    <div class="searchdiv">
+      <input type="text" class="search" placeholder=" Enter movie name" id="moviename">
+    <button class="btn" onclick="search()">Search</button>
+    </div>
+    <div class="content" id="content">
+     <div class="words" >
+      <h3>Title: <span id="title"></span></h3>
+<p>Release Date: <span id="release-date"></span></p>
+<p>Runtime: <span id="runtime"></span></p>
+<p>Genre: <span id="genre"></span></p>
+<p>Director: <span id="director"></span></p>
+<p>Actor: <span id="actor"></span></p>
+<p>Plot: <span id="plot"></span></p>
+<p>Language: <span id="language"></span></p>
+<p>Award: <span id="award"></span></p>
+
+
+     </div>
+     <div class="imgdiv" >
+     <img src=""  id="img">
+     <p>IMDB: <span id="rate"></span>  &#9733;</p>
+     </div>
+    </div>
+    
+  
+
+  </div>
+
+  <script src="omdb.js"></script>
+</body>
+</html>
